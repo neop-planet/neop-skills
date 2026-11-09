@@ -2,13 +2,14 @@
 
 # Neop Skills (`neop-skills`)
 
-Core AI agent skills for the **Neop** stack (Frontend Vue 3 + Backend Laravel `neop-ba` + Daily Sync).
+Core AI agent skills for the **Neop** stack (Frontend Vue 3 + Website Strapi 5 / Nuxt 4 + Backend Laravel `neop-ba` + Daily Sync).
 
 ## Included Neop Skills
 
 | Skill | Path | Purpose | Triggers |
 |-------|------|---------|----------|
 | **Neoper** | `.agents/skills/neoper` | Frontend module builder (`client/` & `super-admin/`): types, enums, `createService`, Zod schemas, composables (`useTable`, `useForm`), views, RBAC, and i18n. | `"neoper"`, `"new module"`, `"build module"` |
+| **Neoper Website** | `.agents/skills/neoper-website` | Marketing website builder (`website/strapi` + `website/nuxt`): Strapi v5 Dynamic Zones (zero raw JSON), deep populate middlewares, bilingual EN/AR seeders, MD5 media uploads, 100/100 SEO + JSON-LD Schema, Nuxt 4 sections, and `[deploy] [seed]` CI. | `"neoper-website"`, `"website"`, `"strapi"`, `"seeder"`, `"dynamic zone"` |
 | **Neoper Backend** | `.agents/skills/neoper-backend` | Backend architecture guide (`neop-ba` Laravel 12): `BaseCrudController`, `BaseCrudService`, `BaseResource` scopes, `BaseRequest`, DTOs, and `int`-backed enums. | `"neoper-backend"`, `"neop-ba"`, backend tasks |
 | **Neoper Fodooly** | `.agents/skills/neoper-fodooly` | Daily git digest & sync tracker using `bk` (`seen/`) and `fr` (`client/` + `super-admin/`) shorthands; translates backend commits into frontend tasks and vice versa. | `"fodooly"`, `"neoper-fodooly"`, `"bk"`, `"fr"` |
 
