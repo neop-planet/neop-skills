@@ -1,0 +1,96 @@
+# ============================================================================
+# NEOP EXTERNAL SKILLS MANIFEST (skills.txt)
+# ============================================================================
+# Runner priority (automatic in README install command):
+#   1. bunx          (fastest, default)
+#   2. bun x         (if bunx binary alias is missing)
+#   3. npx -y        (Node.js fallback if Bun is not installed)
+#
+# Format:
+#   - One command per line (lines starting with # and empty lines are ignored).
+#   - Comment out any skill you don't need with `#`, or add new ones below.
+# ============================================================================
+
+
+# ----------------------------------------------------------------------------
+# 1. FRONTEND CORE — Vue 3, Nuxt, Vite, TanStack Query, Zod & Tailwind
+# ----------------------------------------------------------------------------
+
+# Vue 3 & Pinia Best Practices
+# Best usage: Writing composables, Pinia stores, reactivity, and component state
+bunx skills add vuejs-ai/skills --skill vue-pinia-best-practices -y
+
+# shadcn-vue & Reka UI
+# Best usage: Accessible UI components, DataTables, dialogs, forms, and dark mode
+bunx skills add noartem/laravel-vue-skills --skill shadcn-vue -y
+
+# TanStack Query (Vue Query)
+# Best usage: API caching, query keys, pagination, mutations, and invalidation
+bunx skills add deckardger/tanstack-agent-skills --skill tanstack-query -y
+
+# Zod Schema Validation
+# Best usage: Form schemas (`schema(t)`), payload parsing, and TypeScript inference
+bunx skills add pproenca/dot-skills --skill zod -y
+
+# TypeScript Advanced Types
+# Best usage: Generic services (`createService<T>`), strict entity types, and utility types
+bunx skills add wshobson/agents --skill typescript-advanced-types -y
+
+# Tailwind CSS Patterns
+# Best usage: Design tokens, CSS variables, responsive grids, and dark/light theming
+bunx skills add giuseppe-trisciuoglio/developer-kit --skill tailwind-css-patterns -y
+
+# Vite & Nuxt (Anthony Fu)
+# Best usage: Vite config, unplugin auto-imports, bundling, and Nuxt SSR/modules
+bunx skills add antfu/skills --skill vite nuxt -y
+
+
+# ----------------------------------------------------------------------------
+# 2. UI/UX DESIGN, MOTION & WEB QUALITY — Anti-Slop, GSAP, A11y, CWV & SEO
+# ----------------------------------------------------------------------------
+
+# Anthropic Frontend Design
+# Best usage: Building polished dashboards, landing pages, and components without AI slop
+bunx skills add anthropics/skills --skill frontend-design -y
+
+# Taste Skill (Redesign & Polish)
+# Best usage: Auditing and upgrading existing UI screens to premium design standards
+bunx skills add leonxlnx/taste-skill --skill redesign-existing-projects -y
+
+# GSAP Animation Suite (Core, ScrollTrigger, Timeline, Performance)
+# Best usage: Scroll-driven animations, hero reveals, timelines, and 60fps motion
+bunx skills add greensock/gsap-skills --skill gsap-core gsap-scrolltrigger gsap-timeline gsap-performance -y
+
+# Google / Addy Osmani Web Quality (Accessibility, Performance, SEO)
+# Best usage: WCAG 2.2 compliance, Core Web Vitals (LCP/INP/CLS), and technical SEO audits
+bunx skills add addyosmani/web-quality-skills --skill accessibility performance seo -y
+
+# SEO & AEO (Answer Engine Optimization)
+# Best usage: Structured data (JSON-LD), meta tags, sitemaps, and AI search visibility
+bunx skills add sanity-io/agent-toolkit --skill seo-aeo-best-practices -y
+
+
+# ----------------------------------------------------------------------------
+# 3. LARAVEL & PHP BACKEND — Architecture, Eloquent & Modern PHP
+# ----------------------------------------------------------------------------
+
+# Laravel Patterns
+# Best usage: Clean controllers, Services, FormRequests, API Resources, and Eloquent queries
+bunx skills add affaan-m/everything-claude-code --skill laravel-patterns -y
+
+# Laravel Specialist & PHP Pro
+# Best usage: Laravel 12 features, strict PHP 8.3+ typing, backed enums, queues, and testing
+bunx skills add jeffallan/claude-skills --skill laravel-specialist php-pro -y
+
+
+# ----------------------------------------------------------------------------
+# 4. AGENT WORKFLOW & PRODUCTIVITY
+# ----------------------------------------------------------------------------
+
+# Caveman (Ultra-Compressed Communication)
+# Best usage: Cuts token usage ~75% while keeping 100% technical accuracy (trigger: `/caveman`)
+bunx skills add JuliusBrussee/caveman --skill caveman -y
+
+# Find Skills (Skill Discovery)
+# Best usage: Searching and installing new skills from the registry on the fly
+bunx skills add vercel-labs/skills --skill find-skills -y
